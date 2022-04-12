@@ -1,9 +1,9 @@
 import './App.css';
-import { Pokemons } from "./components/pokemon"
+import { PokemonsContainer } from './containers/PokemonsContainer';
 
 export const App = () => {
   return (
-    <Pokemons />
+    <PokemonsContainer  />
   )
 }
 
